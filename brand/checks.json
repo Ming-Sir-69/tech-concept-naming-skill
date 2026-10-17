@@ -1,0 +1,43 @@
+{
+  "svg_masters": 32,
+  "svg_live_text_raster_script_filters": false,
+  "pdf_exports": 32,
+  "pdf_embedded_raster_images": false,
+  "PNG_files_checked": 129,
+  "all_png_headers_and_content_valid": true,
+  "symbol_png_exact_dimensions_and_alpha": true,
+  "approved_G1_reference_exact_bytes": true,
+  "vector_alpha_IoU_vs_approved_G1": 0.9980348754102684,
+  "opaque_RGB_mean_absolute_error_0_to_255": 2.482,
+  "lower_left_notch_alpha_probe": {
+    "cutout": 0,
+    "solid_neighbor": 255
+  },
+  "ICO_sizes": [
+    [
+      16,
+      16
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      48,
+      48
+    ]
+  ],
+  "ICNS_header_valid": true,
+  "slogan_zh": "以名达意",
+  "slogan_en": "Meaning finds a name.",
+  "font_licenses_included": true,
+  "both_language_slogans_final": true,
+  "upstream_svg_audit_notes": [
+    "G1 gradient is intentional; black/white/plum flat masters supplied.",
+    "Outlined multilingual glyphs increase anchor count; no text/font runtime dependence.",
+    "Slogan detail is unsuitable for tiny renderings: guidelines specify minimum widths and separate symbol-only icons."
+  ],
+  "limits": [
+    "RGB digital masters; no physical print proof or CMYK color-management certification."
+  ]
+}

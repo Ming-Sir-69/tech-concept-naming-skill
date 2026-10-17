@@ -2,11 +2,13 @@
 
 # Essonym
 
+**以名达意**
+
 AI 技术概念命名 Skill。安装 ID 保持 `tech-concept-naming`。
 
 为 **AI 工具、Agent、Skill、CLI 和开源项目**原创命名的 Agent Skill。先理解产品，再探索概念与词源，结合你的反馈逐步收敛；中文和英文可以独立构思。
 
-[English](README.en.md) · [使用示例](examples/local-refinement.md) · [品牌与 Logo](docs/brand.md) · [版本记录](CHANGELOG.md) · [反馈](https://github.com/Ming-Sir-69/tech-concept-naming-skill/issues)
+[English](README.en.md) · [使用示例](examples/local-refinement.md) · [品牌资产包](brand/README.md) · [版本记录](CHANGELOG.md) · [反馈](https://github.com/Ming-Sir-69/tech-concept-naming-skill/issues)
 
 支持保留已认可的词段、只修改前缀或后缀、撤回偏好、排除发音或文化含义，并说明构词依据。AI 负责创造与判断；可选 Python helper 只保存和精确修改候选状态。无需数据库或常驻服务。
 
@@ -20,7 +22,7 @@ DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 add Ming-Sir-69/tech-concept-naming-s
 
 使用 Claude Code 时，把 `--agent codex` 改为 `--agent claude-code`。此安装入口使用 [Vercel Skills](https://github.com/vercel-labs/skills)，要求 Node.js 22.20.0+ 和网络；环境变量关闭该 CLI 的遥测及关联审计请求，下载仍需联网。
 
-不使用 Node：从 [Releases](https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases) 下载 `tech-concept-naming-v0.1.2.zip` 并校验 `SHA256SUMS.txt`，将其中的 **tech-concept-naming** 文件夹放入：
+不使用 Node：从 [Releases](https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases) 下载 `tech-concept-naming-v0.1.3.zip` 并校验 `SHA256SUMS.txt`，将其中的 **tech-concept-naming** 文件夹放入：
 
 | 宿主 | 当前项目内的安装目录 | 显式调用 |
 | --- | --- | --- |

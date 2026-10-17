@@ -4,6 +4,18 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-10-17
+
+### Added
+
+- Final Chinese and English slogans: 以名达意 / Meaning finds a name.
+- Editable path-only logo and wordmark masters, bilingual lockups, flat/reversed variants, font license notices and brand guidelines.
+- A separate downloadable brand kit with transparent PNGs, vector PDFs, Web icons, macOS ICNS and SHA-256 checksums.
+
+### Changed
+
+- Host icon metadata now uses a dedicated 48px icon and the vector master. Naming instructions, helper behavior and installation ID remain unchanged.
+
 ## [0.1.2] - 2026-10-17
 
 ### Added
@@ -33,7 +45,8 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - A stored preference can be explicitly withdrawn without resetting other decisions.
 - A candidate explanation can be refreshed after a fragment edit while retaining its history.
 
-[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.3
 [0.1.2]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.2
 [0.1.0]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.0
 [0.1.1]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.1

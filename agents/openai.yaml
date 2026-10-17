@@ -1,7 +1,7 @@
 interface:
   display_name: "Essonym"
   short_description: "Name AI tools, agents and open-source projects"
-  icon_small: "./assets/essonym-mark.png"
-  icon_large: "./assets/essonym-mark.png"
+  icon_small: "./assets/essonym-icon-48.png"
+  icon_large: "./brand/svg/essonym-symbol-color.svg"
   brand_color: "#785064"
   default_prompt: "Use $tech-concept-naming to understand my AI tool and refine original English and Chinese names."

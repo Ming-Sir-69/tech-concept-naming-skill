@@ -2,11 +2,13 @@
 
 # Essonym
 
+**Meaning finds a name.**
+
 An AI-led technical naming Skill. The installation ID remains `tech-concept-naming`.
 
 An Agent Skill for naming **AI tools, agents, Skills, CLI utilities and open-source projects**. Understand the product, explore concepts and meaningful roots, then refine a few names with the creator. Chinese names can be conceived independently of English ones.
 
-[中文](README.md) · [Refinement example](examples/local-refinement.md) · [Brand and logo](docs/brand.md) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/Ming-Sir-69/tech-concept-naming-skill/issues)
+[中文](README.md) · [Refinement example](examples/local-refinement.md) · [Brand kit](brand/README.md) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/Ming-Sir-69/tech-concept-naming-skill/issues)
 
 Keep accepted fragments while changing another part, retain or withdraw preferences, and distinguish attested roots from new coinages. An optional Python helper preserves exact fragments and revisioned decisions; the AI handles creative work.
 

@@ -5,3 +5,13 @@ naming.json
 *.tmp
 .state/
 research/2026-10-17-productization/competitor-logos/
+/dist/
+/brand/png/
+/brand/pdf/
+/brand/mac/
+/brand/web/*.png
+/brand/web/*.ico
+/brand/fonts/*.otf
+/brand/reference/
+/brand/manifest.json
+/brand/SHA256SUMS.txt

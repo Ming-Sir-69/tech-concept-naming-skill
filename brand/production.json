@@ -1,0 +1,294 @@
+{
+  "product": "Essonym",
+  "source_reference_sha256": "41a8d777d68fd74b49ef2d6f6ca2119aaf815e6414ccdbc9b96f5f14adbc9ba5",
+  "shape": "Vector trace of approved G1 alpha >=128; speckles below 32 px discarded; retained lower-left notch",
+  "gradient": {
+    "direction": "vertical",
+    "sample_method": "linear fit to robust row medians of opaque pixels from approved G1",
+    "top": "#7d5465",
+    "bottom": "#6d465a",
+    "accent": "#785064",
+    "reference_rows": [
+      [
+        200,
+        [
+          125,
+          84,
+          101
+        ]
+      ],
+      [
+        230,
+        [
+          125.0,
+          83.0,
+          100.0
+        ]
+      ],
+      [
+        260,
+        [
+          124.0,
+          83.0,
+          100.0
+        ]
+      ],
+      [
+        290,
+        [
+          124.0,
+          83.0,
+          100.0
+        ]
+      ],
+      [
+        320,
+        [
+          123,
+          82,
+          99
+        ]
+      ],
+      [
+        350,
+        [
+          122.0,
+          82.0,
+          99.0
+        ]
+      ],
+      [
+        380,
+        [
+          122,
+          81,
+          99
+        ]
+      ],
+      [
+        410,
+        [
+          121,
+          80,
+          98
+        ]
+      ],
+      [
+        440,
+        [
+          121,
+          80,
+          98
+        ]
+      ],
+      [
+        470,
+        [
+          120.0,
+          80.0,
+          98.0
+        ]
+      ],
+      [
+        500,
+        [
+          119.0,
+          79.0,
+          97.0
+        ]
+      ],
+      [
+        530,
+        [
+          120.0,
+          80.0,
+          98.0
+        ]
+      ],
+      [
+        560,
+        [
+          118,
+          78,
+          96
+        ]
+      ],
+      [
+        590,
+        [
+          118.0,
+          79.0,
+          96.0
+        ]
+      ],
+      [
+        620,
+        [
+          118.0,
+          78.0,
+          96.0
+        ]
+      ],
+      [
+        650,
+        [
+          116.0,
+          76.0,
+          95.0
+        ]
+      ],
+      [
+        680,
+        [
+          116,
+          76,
+          94
+        ]
+      ],
+      [
+        710,
+        [
+          115,
+          76,
+          94
+        ]
+      ],
+      [
+        740,
+        [
+          115.0,
+          75.0,
+          94.0
+        ]
+      ],
+      [
+        770,
+        [
+          115,
+          75,
+          94
+        ]
+      ],
+      [
+        800,
+        [
+          114,
+          75,
+          93
+        ]
+      ],
+      [
+        830,
+        [
+          113.0,
+          74.0,
+          92.0
+        ]
+      ],
+      [
+        860,
+        [
+          113.0,
+          73.0,
+          92.0
+        ]
+      ],
+      [
+        890,
+        [
+          112.0,
+          72.0,
+          92.0
+        ]
+      ],
+      [
+        920,
+        [
+          111.0,
+          71.0,
+          91.0
+        ]
+      ],
+      [
+        950,
+        [
+          111.0,
+          71.0,
+          91.0
+        ]
+      ],
+      [
+        980,
+        [
+          111.0,
+          70.0,
+          91.0
+        ]
+      ],
+      [
+        1010,
+        [
+          111.0,
+          71.0,
+          91.0
+        ]
+      ],
+      [
+        1040,
+        [
+          111,
+          72,
+          91
+        ]
+      ],
+      [
+        1070,
+        [
+          111.0,
+          72.0,
+          91.0
+        ]
+      ]
+    ]
+  },
+  "typeface": {
+    "family": "Source Serif 4",
+    "weight": "Semibold",
+    "source_commit": "80d3f8894c09c937bebfa9011247d2e1c79fd6f4",
+    "source": "https://github.com/adobe-fonts/source-serif",
+    "license": "SIL OFL 1.1",
+    "outlines": true,
+    "custom_font_claim": false,
+    "pair_adjustments_in_font_units": {
+      "Es": -8,
+      "ss": 0,
+      "so": -6,
+      "on": -10,
+      "ny": -8,
+      "ym": -6
+    }
+  },
+  "dependencies_used_locally": {
+    "vtracer_python_package": "0.6.15",
+    "vtracer_svg_generator_header": "0.6.12",
+    "fonttools": "4.67.0",
+    "Pillow": "13.0.0",
+    "rsvg-convert": "rsvg-convert version 2.62.2\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.57.1\n  harfbuzz 14.4.0\n  fontconfig 2.18.3"
+  },
+  "approved_direction": "A + G1, not a redesign",
+  "slogan": {
+    "zh": "以名达意",
+    "en": "Meaning finds a name.",
+    "status": "both final, for their respective language audiences"
+  },
+  "chinese_slogan_typeface": {
+    "family": "Source Han Serif SC",
+    "weight": "Regular",
+    "source_commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+    "source": "https://github.com/adobe-fonts/source-han-serif",
+    "license": "SIL OFL 1.1",
+    "outlines": true,
+    "font_file_bundled": false
+  },
+  "licenses": "Logo artwork and original documentation: repository MIT. Unmodified font: fonts/LICENSE.md (OFL). No third-party logos included."
+}
