@@ -4,7 +4,7 @@ description: Helps developers name AI tools, agents, Skills, CLI utilities, open
 license: MIT
 ---
 
-# Tech Concept Naming — AI-led Skill
+# Essonym — AI-led Technical Naming Skill
 
 Create with the person, not for them. This is a **technical creator's naming companion**, not a brand-name vending machine or a rule-based word compiler. Prefer a small number of meaningful, different directions over a long list. Users may change their ideas during naming; corrections are evidence, not failure.
 

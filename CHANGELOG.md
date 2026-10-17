@@ -4,6 +4,16 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-10-17
+
+### Added
+
+- Essonym product name, selected plum logo, brand note and optional host icon metadata.
+
+### Changed
+
+- Present Essonym in both READMEs and the Skill heading. Installation ID, commands, state format and naming behavior remain unchanged.
+
 ## [0.1.1] - 2026-10-17
 
 ### Fixed
@@ -23,6 +33,7 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - A stored preference can be explicitly withdrawn without resetting other decisions.
 - A candidate explanation can be refreshed after a fragment edit while retaining its history.
 
-[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.2
 [0.1.0]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.0
 [0.1.1]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.1
