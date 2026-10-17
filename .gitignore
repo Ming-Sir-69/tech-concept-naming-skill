@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+naming.json
+*.tmp
+.state/
+research/2026-10-17-productization/competitor-logos/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Concept Naming"
+  short_description: "Name AI tools, agents and open-source projects"
+  default_prompt: "Use $tech-concept-naming to understand my AI tool and refine original English and Chinese names."
