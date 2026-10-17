@@ -16,7 +16,7 @@ DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 add Ming-Sir-69/tech-concept-naming-s
 
 使用 Claude Code 时，把 `--agent codex` 改为 `--agent claude-code`。此安装入口使用 [Vercel Skills](https://github.com/vercel-labs/skills)，要求 Node.js 22.20.0+ 和网络；环境变量关闭该 CLI 的遥测及关联审计请求，下载仍需联网。
 
-不使用 Node：从 [Releases](https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases) 下载 `tech-concept-naming-v0.1.0.zip` 并校验 `SHA256SUMS.txt`，将其中的 **tech-concept-naming** 文件夹放入：
+不使用 Node：从 [Releases](https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases) 下载 `tech-concept-naming-v0.1.1.zip` 并校验 `SHA256SUMS.txt`，将其中的 **tech-concept-naming** 文件夹放入：
 
 | 宿主 | 当前项目内的安装目录 | 显式调用 |
 | --- | --- | --- |
@@ -57,10 +57,10 @@ python3 scripts/naming_state.py show ./naming.json
 
 ```sh
 DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 update tech-concept-naming --project --yes
-DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 remove tech-concept-naming --agent codex --yes
+DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 remove tech-concept-naming --yes
 ```
 
-Claude Code 卸载时换成 `--agent claude-code`。手工安装可用新版本替换 Skill 文件夹；卸载仅删除该文件夹。你独立保存的 `naming.json` 与决策笔记需自行保留或删除。
+此卸载命令移除当前项目中各宿主的该 Skill；同时装有多个宿主时，可避免遗留共享目录。手工安装可用新版本替换 Skill 文件夹；卸载需删除该项目各宿主中的该文件夹。你独立保存的 `naming.json` 与决策笔记需自行保留或删除。
 
 ## 费用、数据与能力边界
 

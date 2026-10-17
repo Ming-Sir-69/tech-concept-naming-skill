@@ -24,3 +24,7 @@
 ## helper 报 stale revision
 
 先 `show` 读取当前状态，再针对该状态决定修改并传入最新 `--expect`。不要盲目重试旧命令。两个 Agent 不应同时写同一状态文件。
+
+## 卸载后仍可发现 Skill
+
+同时安装多个宿主时，安装器可能保留 `.agents/skills/` 共享目录。使用 README 中不带 `--agent` 的项目级 `remove tech-concept-naming --yes`，然后重新打开会话。它移除当前项目各宿主中的此 Skill，独立保存的命名状态不受影响。

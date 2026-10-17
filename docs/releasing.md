@@ -8,10 +8,10 @@
 4. 在干净的分发仓库提交并打版本 tag。仅从该仓库导出：
 
 ```sh
- git archive --format=zip --prefix=tech-concept-naming/ --output=../tech-concept-naming-v0.1.0.zip v0.1.0
+git archive --format=zip --prefix=tech-concept-naming/ --output=../tech-concept-naming-v0.1.1.zip v0.1.1
 ```
 
-5. 在包所在目录生成 `SHA256SUMS.txt`：macOS 使用 `shasum -a 256 tech-concept-naming-v0.1.0.zip > SHA256SUMS.txt`，Linux 可用 `sha256sum`。用户可用 `shasum -a 256 -c SHA256SUMS.txt` 校验。
+5. 在包所在目录生成 `SHA256SUMS.txt`：macOS 使用 `shasum -a 256 tech-concept-naming-v0.1.1.zip > SHA256SUMS.txt`，Linux 可用 `sha256sum`。用户可用 `shasum -a 256 -c SHA256SUMS.txt` 校验。
 6. GitHub Release 附上 ZIP、校验和与面向用户的变更说明。发布后匿名访问仓库和下载包，再检查安装命令。
 
 公开分发库是 `Ming-Sir-69/tech-concept-naming-skill`，Skill ID 始终为 `tech-concept-naming`。研究资料和私人原始验证记录不在分发库中。维护期保持 GitHub Actions 关闭；未启用 Pages、Packages、Codespaces 或付费 API。普通 Git push、源文件与 Release 附件不依赖这些计量功能；GitHub 仍有一般容量与速率限制。

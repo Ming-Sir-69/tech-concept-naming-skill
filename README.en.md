@@ -34,10 +34,10 @@ Run from the project where you installed it:
 
 ```sh
 DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 update tech-concept-naming --project --yes
-DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 remove tech-concept-naming --agent codex --yes
+DISABLE_TELEMETRY=1 npx --yes skills@1.7.2 remove tech-concept-naming --yes
 ```
 
-Use `--agent claude-code` to remove that installation. For manual installs, replace or remove only the Skill folder. Your separately saved state is yours to retain or delete.
+Removal affects this Skill across agents in the current project, including its shared directory. For manual installs, replace the Skill folder or remove its copies from each project agent directory. Your separately saved state is yours to retain or delete.
 
 ## Requirements and boundaries
 

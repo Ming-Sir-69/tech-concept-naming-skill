@@ -4,6 +4,12 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-17
+
+### Fixed
+
+- Use project-wide Skill removal in the documented uninstall command: removing only one host after a multi-host install/update can retain the shared canonical directory. User-owned task state remains separate.
+
 ## [0.1.0] - 2026-10-17
 
 ### Added
@@ -17,5 +23,6 @@ User-facing changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - A stored preference can be explicitly withdrawn without resetting other decisions.
 - A candidate explanation can be refreshed after a fragment edit while retaining its history.
 
-[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/compare/v0.1.1...HEAD
 [0.1.0]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.0
+[0.1.1]: https://github.com/Ming-Sir-69/tech-concept-naming-skill/releases/tag/v0.1.1
